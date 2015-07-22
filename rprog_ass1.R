@@ -1,7 +1,7 @@
 pollutantmean <- function(directory, pollutant, id) {
     setwd(directory)
-    read.csv(id)
-    sub <- subset(id$pollutant
+    table <- read.csv(id)
+    mean(table$pollutant, na.rm = TRUE)
     
 }
 
